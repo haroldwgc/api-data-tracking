@@ -3,8 +3,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const urimongoose = "mongodb://localhost/store";
-//const urimongoose =  "mongodb+srv://Tracking:Mudvayne*.666@cluster0.jnamc.mongodb.net/store?retryWrites=true&w=majority";
+/const urimongoose = "mongodb://localhost/store";
+const urimongoose =  "mongodb+srv://Tracking:Mudvayne*.666@cluster0.jnamc.mongodb.net/store?retryWrites=true&w=majority";
 const routes = require("./routes");
 
 const app = express();
